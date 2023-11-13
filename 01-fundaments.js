@@ -128,3 +128,6 @@ const validar=(user,password)=>{
 const validar1=function(user,password){
     console.log("Usuario y password")
 }
+
+// con nfn creamos la siguiente funcion
+const first = (second) => { third }
