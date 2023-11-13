@@ -105,3 +105,26 @@ function hello2(){
     return "Hola JS"
 }
 console.log(hello2())
+
+
+function hello3(){
+    return function(){
+        return "Hello Nextjs"
+    }
+    ()
+}
+
+console.log(hello3())
+
+
+function login(user,password){
+    console.log("Usuario y password");
+}
+//Funcion flecha
+const validar=(user,password)=>{
+    console.log("Usuario y password")
+}
+//Funcion expresada
+const validar1=function(user,password){
+    console.log("Usuario y password")
+}
