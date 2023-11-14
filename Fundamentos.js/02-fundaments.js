@@ -61,24 +61,30 @@
 
 // console.log(newProduct)
 
-const profiledUser=["Miguel","Paredes",20,true,{ciudad:"quito"}]
+// const profiledUser=["Miguel","Paredes","20","true"]
 
-//agregar al final
-const skills = ["front","backt"]
-profiledUser.push(skills)
+// //agregar al final
+//const skills = ["front","backt"]
+//profiledUser.push(skills)
 
-//agregar al inicio
-const skills1="💖💖"
-profiledUser.unshift(skills1)
+// //agregar al inicio
+// const skills1="💖💖"
+// profiledUser.unshift(skills1)
 
-// Para sacar <- pop shift
-// Para meter -> push unshift
+// // Para sacar <- pop shift
+// // Para meter -> push unshift
 
-console.log(profiledUser)
+// console.log(profiledUser)
 
-const findOne = profiledUser.find((e)=>e==="Juan")
+// const findOne = profiledUser.find((e)=>e==="Juan")
 
-const findTwo = profiledUser.find((e)=>e==="Miguel")
+// const findTwo = profiledUser.find((e)=>e==="Miguel")
 
-console.log(findOne)
-console.log(findTwo)
+// console.log(findOne)
+// console.log(findTwo)
+
+// const newData = profiledUser.filter(e => e!= 'Miguel')
+// console.log(newData)
+
+// const newDatamap = profiledUser.map(i => i.toUpperCase())
+// console.log(newDatamap)
